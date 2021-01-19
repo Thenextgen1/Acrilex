@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
 .navbar {
     border-bottom: 1px solid black;
@@ -61,7 +62,9 @@ color: black
 #itemandview {
     margin-top: 20px;
 }
-
+.img-fluid {
+    max-height: 50%;
+}
 
 
 
