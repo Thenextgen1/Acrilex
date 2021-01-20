@@ -1,6 +1,7 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 .navbar {
     border-bottom: 1px solid black;
@@ -65,6 +66,19 @@ color: black
 .img-fluid {
     max-height: 50%;
 }
+.card-title {
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: center;
+}
+.card-text {
+display: flex;
+justify-content: center;
+text-decoration: underline;
+font-size: 1.0rem;
+}
+
+
 
 
 
