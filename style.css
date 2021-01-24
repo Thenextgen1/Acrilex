@@ -77,7 +77,16 @@ justify-content: center;
 text-decoration: underline;
 font-size: 1.0rem;
 }
-
+.card-text:hover {
+    animation: bounceOut; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 0.5s; /* don't forget to set a duration! */
+}
+@media(max-width: 420px) {
+#view {
+    display: none;
+    visibility: hidden;
+}
+}
 
 
 
